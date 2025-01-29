@@ -88,7 +88,8 @@
     border-radius: 40px;
 }
 
-.body__content{
+.music__container{
+    height: 68vh;
     align-items: center;
     padding: 16px;
     margin: 10px;
@@ -96,14 +97,19 @@
     background-color: #121212;
 }
 
-.body__content__title h1{
+.music{
+    margin: 24px;
+}
+
+.music #greeting{
+    color: #fff;
     font-size: 32px;
     margin-top: 20px;
     margin-bottom: 60px;
     font-weight: 700;
 }
 
-.body__content__title p{
+.music .greeting-subtitle{
     margin-bottom: 20px;
     font-weight: 600;
     font-size: 24px;
