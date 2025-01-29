@@ -1,14 +1,13 @@
 :root {
-    --fonte-principal: "DM Sans", sans-serif;
     --cor-fundo-primaria: #000;
     --cor-fundo-secundaria: #121212;
-    --cor-fonte-primaria: #fff;
+    --cor-branco-primaria: #fff;
     --cor-fonte-secundaria: #b3b3b3;
 }
 
 body {
     background-color: var(--cor-fundo-primaria);
-    color: var(--cor-fonte-primaria);
+    color: var(--cor-branco-primaria);
     font-family: var(--fonte-principal);
 }
 
@@ -52,7 +51,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: var(--fonte-principal);
+    
 }
 
 .library {
@@ -77,7 +76,7 @@ body {
     color: var(--cor-fonte-secundaria);
     font-weight: 600;
     font-size: 16px;
-    font-family: var(--fonte-principal);
+    
 }
 
 .playlist {
@@ -101,8 +100,8 @@ body {
 
 .playlist .text {
     padding-bottom: 14px;
-    color: var(--cor-fonte-primaria);
-    font-family: var(--fonte-principal);
+    color: var(--cor-branco-primaria);
+    
 }
 
 .playlist .title {
@@ -118,12 +117,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cor-fonte-primaria);
+    background-color: var(--cor-branco-primaria);
     color: var(--cor-fundo-primaria);
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: var(--fonte-principal);
     text-decoration: none;
     padding: 10px;
     border: 0;
@@ -149,7 +147,7 @@ body {
 .languages__button {
     background-color: transparent;
     border: 1px solid #878787;
-    color: var(--cor-fonte-primaria);
+    color: var(--cor-branco-primaria);
     cursor: pointer;
     align-items: center;
     font-weight: 700;
@@ -168,14 +166,13 @@ footer {
     display: flex;
     justify-content: space-between;
     background: linear-gradient(to right, #ff007f, #4595eb);
-    color: var(--cor-fonte-primaria);
+    color: var(--cor-branco-primaria);
     padding: 15px;
 }
 
 footer .footer_texto p {
     margin: 0 0 12px 15px;
-    color: var(--cor-fonte-primaria);
-    font-family: var(--fonte-principal);
+    color: var(--cor-branco-primaria);
     font-size: 14px;
 }
 
@@ -183,15 +180,20 @@ footer .footer_texto p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cor-fonte-primaria);
+    background-color: var(--cor-branco-primaria);
     color: var(--cor-fundo-primaria);
     border-radius: 20px;
     font-size: 10px;
     font-weight: 700;
-    font-family: var(--fonte-principal);
     text-decoration: none;
     padding: 10px;
     border: 0;
     width: 150px;
     margin: 0px 15px 15px 0;
+}
+
+.footer_button button{
+    background-color: var(--cor-branco-primaria);
+    font-weight: bold;
+
 }
