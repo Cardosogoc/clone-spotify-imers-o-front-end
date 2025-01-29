@@ -87,3 +87,24 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+.body__content{
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+}
+
+.body__content__title h1{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+
+.body__content__title p{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
