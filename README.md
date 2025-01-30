@@ -22,6 +22,7 @@ Neste projeto, foram utilizadas as seguintes tecnologias para criar uma experiê
   <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/React-%2361DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
   <img src="https://img.shields.io/badge/Git-%23F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Node.js-%23339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
 </div>
 
 ---
@@ -37,5 +38,13 @@ Neste projeto, foram utilizadas as seguintes tecnologias para criar uma experiê
 
 ### 1. Clone o repositório:
 
-```bash
+```bash do git
 git clone https://github.com/Cardosogoc/clone-spotify-imers-o-front-end.git
+
+```
+### 2. Instalando e rodando o NodeJS:
+```bash do node
+node -v
+npm install json-server@0.17.0
+json-server --watch api-artists/artists.json
+```
