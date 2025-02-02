@@ -26,6 +26,16 @@ Neste projeto, foram utilizadas as seguintes tecnologias para criar uma experiê
 
 ---
 
+<img align="center" alt="react" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> 
+
+## 🔗 Link do outro Projeto
+
+Utilizei um pouco de react em um clone deste clone, criei alguns componentes, assim como proposto na imersão.
+[Clone Spotify React](https://github.com/Cardosogoc/clone-spotify-react)
+
+
+---
+
 ## 📋 Funcionalidades
 
 - **Interface responsiva** que se adapta a diferentes tamanhos de tela.
